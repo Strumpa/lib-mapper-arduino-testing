@@ -12,8 +12,8 @@ using namespace mapper;
 // For disabling power saving
 #include "esp_wifi.h"
 
-const char* ssid     = "MONA_LISA";
-const char* password = "octogone93";
+const char* ssid     = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
 
 const int NUM_SIGNALS = 1;
 const int SIG_SIZE = 6;
@@ -60,6 +60,6 @@ void loop() {
       vec.push_back(j);
     }
     signals[i].set_value(vec);
-    Serial.println("adding vec to signal");
+    #Serial.println("adding vec to signal");
   }
 }
