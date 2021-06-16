@@ -14,8 +14,8 @@ using namespace mapper;
 
 #define SIG_SIZE 7
 
-const char* ssid     = "MONA_LISA";
-const char* password = "octogone93";
+const char* ssid     = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
 
 const int NUM_SIGNALS = 1;
 
